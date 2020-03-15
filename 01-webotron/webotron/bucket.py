@@ -2,11 +2,11 @@
 # -*- coding: utf-8 *-*
 # pylint: disable=no-member
 
+"""Classes for S3 Buckets."""
+
 import mimetypes
 from pathlib import Path
 from botocore.exceptions import ClientError
-
-"""Classes for S3 Buckets."""
 
 
 class BucketManager:
